@@ -14,6 +14,9 @@ Generate controller with nest cli
 - `nest generate controller <module name>/<controller name> --flat`
 >--flat: This option tells the nest cli not to generate an extra folder for th controller
 
+Generate services with nest cli
+- `nest generate service <module name>`
+>This would create a new service inside the <module name> folder and inside it, would create a service file.
 
 
  

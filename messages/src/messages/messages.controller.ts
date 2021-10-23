@@ -30,7 +30,6 @@ export class MessagesController {
     if (!message) {
       throw new NotFoundException('message not found');
     }
-
     return message;
   }
 }
